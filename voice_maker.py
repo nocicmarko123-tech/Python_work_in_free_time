@@ -15,3 +15,7 @@ while True:
         file_path = voices_dir / f"{text.title().strip()}.mp3"
         voice.save(str(file_path))
         print("Process done succesfully")
+#This file wont be able to run on online workspaces, and to install package gtts
+#because gtts is not preinstalled
+#Run this command in your terminal:
+#  pip install gTTS
