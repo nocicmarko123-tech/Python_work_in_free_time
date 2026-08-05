@@ -1,7 +1,9 @@
 from pathlib import Path
 import qrcode
 
-folder = Path("Qr codes")
+#Turn your text or data into a png image which represents an Qr code
+#If you want to make your code to have an path use this line under
+#folder = Path("Qr codes")
 
 while True:
     content = input().strip() 
