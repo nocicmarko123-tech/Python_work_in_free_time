@@ -14,3 +14,8 @@ while True:
         qr = qrcode.make(content)
         qr.save(file_path)
         print("Process text-to-QRcode is succesfully completed :)")
+
+#This file wont be able to run on online workspaces, and to install package gtts
+#because gtts is not preinstalled
+#Run this command in your terminal:
+#  pip install qrcode[pil]
