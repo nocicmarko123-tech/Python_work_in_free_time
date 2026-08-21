@@ -1,8 +1,8 @@
-def prosecna_potrosnja(*gorivo, kilometraza):
-    prosek = gorivo / (kilometraza / 100)
-    print(prosek)
-    return round(prosek, 2)
+def average(*gas, kilometar):
+    average = gas / (kilometar / 100)
+    print(average)
+    return round(average, 2)
      
-kilometraza = int(input("Molimo unesite vasu kilometrazu(duzinu relacije): "))
-gorivo = int(input("Unesite ukupnu kolicinu potrosenog goriva: "))
-prosecna_potrosnja(gorivo, kilometraza)
+kilometar = int(input("Please insert lenght of the route: "))
+gas = int(input("Spend liters of gas: "))
+average(gas,kilometar)
